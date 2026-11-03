@@ -1,0 +1,50 @@
+﻿Nome,Proponente,Tipo,Categoria,Aplicacao,Fase,Carteira,Admissao,Qualificacao,Habilitacao,Adocao,Execucao
+SelenITA,Instituto Tecnologico de Aeronautica,Instituicao Academica Publica,Espacial,Científica,Proposta,Qualificacao,06/10/22,17/10/22,,,
+MAPSAR,Agencia Espacial Brasileira,Instituicao Governamental,Espacial,Observação da Terra,Proposta,Qualificacao,17/10/22,17/10/22,,,
+ITASAT2,Instituto Tecnologico de Aeronautica,Instituicao Academica Publica,Espacial,Científica,Proposta,Qualificacao,02/12/22,20/01/23,,,
+Garatea-L,Alianca das Startups Espaciais Brasileiras,Organizacao Privada sem Fins Lucrativos,Espacial,Científica,Proposta,Qualificacao,27/10/22,20/01/23,,,
+EQUARS,Agencia Espacial Brasileira,Instituicao Governamental,Espacial,Científica,Proposta,Qualificacao,06/12/22,13/06/23,,,
+Constelacao Catarina - Frota A,Agencia Espacial Brasileira,Instituicao Governamental,Espacial,Observação da Terra,Missao,Execucao,19/05/23,13/06/23,11/12/24,04/12/25,04/12/25
+CBERS 6,Agencia Espacial Brasileira,Instituicao Governamental,Espacial,Observação da Terra,Proposta,Habilitacao,25/05/23,13/06/23,11/12/24,,
+BIOMESAT,Instituto Nacional de Pesquisas Espaciais,Instituicao Academica Publica,Espacial,Observação da Terra,Proposta,Habilitacao,14/02/23,13/06/23,11/12/24,,
+Amazonia 1b/AQUAE/Sabiamar,Instituto Nacional de Pesquisas Espaciais,Instituicao Academica Publica,Espacial,Observação da Terra,Missao,Execucao,30/11/22,08/12/22,12/06/24,12/06/24,12/06/24
+Plataforma para realizacao de experimentos em microgravidade (uG-SAT),Agencia Espacial Brasileira,Instituicao Governamental,Espacial,Científica,Proposta,Admissao,22/12/22,,,,
+NanoMIRAX 2,Universidade do Vale do Paraiba,Instituicao Academica Privada,Espacial,Científica,Proposta,Admissao,15/05/23,,,,
+Telescopio Solar Espacial Galileo,Instituto Nacional de Pesquisas Espaciais,Instituicao Academica Publica,Espacial,Científica,Proposta,Qualificacao,21/09/23,07/12/23,,,
+Plataforma Suborbital de Microgravidade,Agencia Espacial Brasileira,Instituicao Governamental,Desenvolvimento de Tecnologia,Hardware,Missao,Execucao,,,,,08/12/22
+Amazonia 2,PNAE 2022-2031,Instituicao Governamental,Espacial,Observação da Terra,Proposta,Admissao,24/08/22,,,,
+Transferencia a industria da Plataforma Multimissao PMM,PNAE 2022-2031,Instituicao Governamental,Desenvolvimento de Tecnologia,Hardware,Proposta,Admissao,24/08/22,,,,
+P100 - Plataforma multimissao para satelites da classe de 200 kg,PNAE 2022-2031,Instituicao Governamental,Desenvolvimento de Tecnologia,Hardware,Proposta,Admissao,24/08/22,,,,
+TURISAT,PNAE 2022-2031,Instituicao Governamental,Espacial,Observação da Terra,Proposta,Admissao,24/08/22,,,,
+Constelacao Essentia,PNAE 2022-2031,Instituicao Governamental,Espacial,Científica,Proposta,Admissao,24/08/22,,,,
+Missao AgroBio,PNAE 2022-2031,Instituicao Governamental,Espacial,Observação da Terra,Proposta,Admissao,24/08/22,,,,
+Missao AQUAE de alta resolucao,PNAE 2022-2031,Instituicao Governamental,Espacial,Observação da Terra,Proposta,Admissao,24/08/22,,,,
+Plataforma Multimissao de Microssatelites PMX,PNAE 2022-2031,Instituicao Governamental,Desenvolvimento de Tecnologia,Hardware,Proposta,Admissao,24/08/22,,,,
+CBERS-5,PNAE 2022-2031,Instituicao Governamental,Espacial,Observação da Terra,Proposta,Admissao,24/08/22,,,,
+Mirax,PNAE 2022-2031,Instituicao Governamental,Espacial,Científica,Proposta,Admissao,24/08/22,,,,
+GEOMET-1,PNAE 2022-2031,Instituicao Governamental,Espacial,Comunicação,Proposta,Admissao,24/08/22,,,,
+SGDC-2,PNAE 2022-2031,Instituicao Governamental,Espacial,Comunicação,Proposta,Admissao,24/08/22,,,,
+Familia VL-X,PNAE 2022-2031,Instituicao Governamental,Acesso ao Espaco,Foguetes Orbitais,Proposta,Admissao,24/08/22,,,,
+CBERS-4,Agencia Espacial Brasileira,Instituicao Governamental,Espacial,Observação da Terra,Missao,Execucao,,,,,08/12/22
+CBERS 04A,Agencia Espacial Brasileira,Instituicao Governamental,Espacial,Observação da Terra,Missao,Execucao,,,,,08/12/22
+Amazonia 1,Agencia Espacial Brasileira,Instituicao Governamental,Espacial,Observação da Terra,Missao,Execucao,,,,,08/12/22
+NanoMirax,Agencia Espacial Brasileira,Instituicao Governamental,Espacial,Científica,Missao,Execucao,,,,,08/12/22
+GOLDS-UFSC,Agencia Espacial Brasileira,Instituicao Governamental,Espacial,Científica,Missao,Execucao,,,,,08/12/22
+Motor-Foguete S50,Agencia Espacial Brasileira,Instituicao Governamental,Desenvolvimento de Tecnologia,Hardware,Missao,Execucao,,,,,08/12/22
+Veiculo Suborbital VS-50,Agencia Espacial Brasileira,Instituicao Governamental,Acesso ao Espaco,Foguetes de Sondagem,Missao,Execucao,,,,,08/12/22
+Veiculo Lancador de Microssatelites VLM-1,Agencia Espacial Brasileira,Instituicao Governamental,Acesso ao Espaco,Foguetes Orbitais,Missao,Execucao,,,,,08/12/22
+NASCERR - Nano Satelite com eletronica resistente a radiacao,Universidade Federal do Ceara,Instituicao Academica Publica,Espacial,Demonstração de Tecnologia,Proposta,Qualificacao,20/05/24,04/12/25,,,
+ATTOSat - Amazon Tall Tower Observatory Satellite,Concert Technologies S.A.,Organizacao Empresarial,Espacial,Observação da Terra,Proposta,Qualificacao,28/05/24,04/12/25,,,
+POLICube-1,Universidade de Sao Paulo,Instituicao Academica Publica,Espacial,Científica,Proposta,Admissao,26/10/24,,,,
+Constelacao Potiguar de Nanossatelites,Associacao do Parque Cientifico e Tecnologico Augusto Severo,Organizacao Privada sem Fins Lucrativos,Espacial,Observação da Terra,Proposta,Qualificacao,31/12/24,28/07/26,,,
+MLBR,CENIC ENGENHARIA INDUSTRIA E COMERCIO LTDA,Organizacao Empresarial,Acesso ao Espaco,Foguetes Orbitais,Proposta,Habilitacao,20/02/25,04/12/25,28/07/26,,
+YAKAMI-SAT1,YAKAMI TECH,Organizacao Empresarial,Espacial,Demonstração de Tecnologia,Proposta,Qualificacao,20/10/25,28/07/26,,,
+Cimatelite,SENAI CIMATEC,Organizacao Privada sem Fins Lucrativos,Espacial,Comunicação,Proposta,Qualificacao,18/03/26,28/07/26,,,
+EDUSAT BRASIL,Aceleradora Joint para Negocios Inovadores,Organizacao Empresarial,Espacial,Científica,Proposta,Admissao,13/04/26,,,,
+Phoenix ORION,PHOENIX TECHNOLOGY,Organizacao Empresarial,Espacial,Demonstração de Tecnologia,Proposta,Admissao,13/04/26,,,,
+ONCA-PINTADA,Lissandra Kruse Fuganti Inova Simples,Organizacao Empresarial,Espacial,Observação da Terra,Proposta,Admissao,13/05/26,,,,
+Brassat - Monitoramento Sistematico e Comunicacoes,VISIONA TECNOLOGIA ESPACIAL AS,Organizacao Empresarial,Espacial,Observação da Terra,Proposta,Qualificacao,13/05/26,28/07/26,,,
+DV Siatt karman,DeltaV Engenharia Espacial LTDA,Organizacao Empresarial,Acesso ao Espaco,Foguetes de Sondagem,Proposta,Qualificacao,15/05/26,28/07/26,,,
+CUBS - Cubsat Universitario Brasileiro de Supervisionamento,UFRN - Universidade Federal do Rio Grande do Norte,Instituicao Academica Publica,Espacial,Demonstração de Tecnologia,Proposta,Qualificacao,18/05/26,28/07/26,,,
+CUBSAT BRASIL OG,JMM TECH,Organizacao Empresarial,Espacial,Científica,Proposta,Admissao,23/09/26,,,,
+Missao WATSAT,CAMPUS DE SAO JOAO DA BOA VISTA-FACULDADE DE ENGENHARIA,Instituicao Academica Publica,Espacial,Científica,Proposta,Admissao,15/05/26,,,,
