@@ -22,11 +22,14 @@ fim = pd.concat([
     dados['Execucao']
 ]).max()
 
+# Deve-se editar os períodos para mostrar as reuniões deliberativas em vez de tempo corrido.
+# Além disso, após a criação da imagem é de interesse ressaltar as datas de movimentações das propostas mais relevantes.
+
 # Marcos semestrais
 periodos = pd.date_range(
     start=inicio,
     end=fim,
-    freq='3MS'
+    freq='1MS'
 )
 
 serie = []
