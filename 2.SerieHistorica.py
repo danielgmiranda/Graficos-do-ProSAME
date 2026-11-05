@@ -1,23 +1,107 @@
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
-from matplotlib.lines import Line2D
 
 dados = pd.read_csv('IXRDProsame.csv')
 
-data_admissao = pd.to_datetime(dados['Admissao'], dayfirst=True)
-data_qualificacao = pd.to_datetime(dados['Qualificacao'], dayfirst=True)
-data_habilitacao = pd.to_datetime(dados['Habilitacao'], dayfirst=True)
-data_execucao = pd.to_datetime(dados['Execucao'], dayfirst=True)
+# Conversão das datas
+for col in ['Admissao', 'Qualificacao', 'Habilitacao', 'Execucao']:
+    dados[col] = pd.to_datetime(
+        dados[col],
+        dayfirst=True,
+        errors='coerce'
+    )
 
-irdo = pd.to_datetime('01/01/2023', dayfirst= True)
-iRDO_count = 0
+# Primeira data existente do banco
+inicio = dados['Admissao'].min()
 
-for date in data_admissao:
-    if pd.notna(date) and date < irdo:
-        iRDO_count = iRDO_count + 1
+# Última data existente considerando todas as etapas
+fim = pd.concat([
+    dados['Admissao'],
+    dados['Qualificacao'],
+    dados['Habilitacao'],
+    dados['Execucao']
+]).max()
 
-print(iRDO_count)
+# Marcos semestrais
+periodos = pd.date_range(
+    start=inicio,
+    end=fim,
+    freq='3MS'
+)
 
-iniciais = dados['Admissao'].value_counts()
+serie = []
+
+for data_ref in periodos:
+
+    admissao = (
+        (dados['Admissao'] <= data_ref) &
+        (
+            dados['Qualificacao'].isna() |
+            (dados['Qualificacao'] > data_ref)
+        )
+    ).sum()
+
+    qualificacao = (
+        (dados['Qualificacao'] <= data_ref) &
+        (
+            dados['Habilitacao'].isna() |
+            (dados['Habilitacao'] > data_ref)
+        )
+    ).sum()
+
+    habilitacao = (
+        (dados['Habilitacao'] <= data_ref) &
+        (
+            dados['Execucao'].isna() |
+            (dados['Execucao'] > data_ref)
+        )
+    ).sum()
+
+    execucao = (
+        (dados['Execucao'] <= data_ref)
+    ).sum()
+
+    serie.append([
+        data_ref,
+        admissao,
+        qualificacao,
+        habilitacao,
+        execucao
+    ])
+
+df = pd.DataFrame(
+    serie,
+    columns=[
+        'Semestre',
+        'Admissao',
+        'Qualificacao',
+        'Habilitacao',
+        'Execucao'
+    ]
+)
+
+plt.figure(figsize=(14,8))
+
+plt.stackplot(
+    df['Semestre'],
+    df['Admissao'],
+    df['Qualificacao'],
+    df['Habilitacao'],
+    df['Execucao'],
+    labels=[
+        'Admissão',
+        'Qualificação',
+        'Habilitação',
+        'Execução'
+    ],
+    alpha=0.85
+)
+
+plt.title('Evolução da Carteira de Propostas por Semestre')
+plt.xlabel('Semestre')
+plt.ylabel('Quantidade de Propostas')
+plt.legend(loc='upper left')
+plt.grid(alpha=0.3)
+
+plt.tight_layout()
+plt.show()
